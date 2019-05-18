@@ -1,0 +1,3 @@
+name: gitlab-ci
+summary: A relation to allow GitLab runners to register with GitLab CI servers
+
