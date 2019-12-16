@@ -1,5 +1,4 @@
 from charms.reactive import Endpoint
-# from charms.reactive import Endpoint, set_flag, clear_flag
 from charmhelpers.core import hookenv
 
 
