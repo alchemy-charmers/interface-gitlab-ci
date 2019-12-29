@@ -4,7 +4,7 @@ All relation states should check for 'triggered' state to be sure it is a relati
 
 Expected flow:
  - Requires:
-   - when 'ready' and when_not 'configured' call the configure fucntion to provide a registation token and hostname
+   - when 'ready' and when_not 'configured' call the configure function to provide a registration token and hostname
  - Provides:
    - when 'changed' apply self.config to the configuration. *This is a list of configurations to apply*
    - return a feedback about the config via the set_cfg_status function
